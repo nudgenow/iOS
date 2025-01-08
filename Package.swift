@@ -12,7 +12,7 @@ let package = Package(
         .binaryTarget(
             name: packageName,
             url: "https://github.com/nudgenow/iOS/raw/refs/heads/prod_main/nudgecore_v2.xcframework.zip",
-            checksum: "bd1002e7d2ce182eb2ee16d0918ddc036697d063e1536729659805eeb2f0ebda"
+            checksum: "ffa7b32e03eaee03bd2552b7ba8544bf0a6b514bced4d1148800b161b8e0f186"
         ),
     ]
 )
