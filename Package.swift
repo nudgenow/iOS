@@ -3,7 +3,7 @@ import PackageDescription
 
 let packageName = "Nudgecore_iOS"
 let package = Package(
-    name: "nudgecore_v2",
+    name: "Nudgecore_iOS",
     platforms: [.iOS(.v13)],
     products: [
         .library(name: packageName, targets: [packageName]),
