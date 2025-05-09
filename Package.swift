@@ -9,7 +9,8 @@ let package = Package(
         .library(name: packageName, targets: [packageName]),
     ],
     dependencies: [
-        .package(url: "https://github.com/nudgenow/iOS/raw/refs/tags/7.0.0/Nudgecore_iOS.xcframework.zip")),
+        // Add your external dependencies here
+        .package(url: "https://github.com/rive-app/rive-ios", .upToNextMajor(from: "6.8.1")),
     ],
     targets: [
         .binaryTarget(
