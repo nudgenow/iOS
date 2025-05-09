@@ -8,6 +8,9 @@ let package = Package(
     products: [
         .library(name: packageName, targets: [packageName]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/rive-app/rive-ios", .upToNextMajor(from: "6.8.1")),
+    ],
     targets: [
         .binaryTarget(
             name: packageName,
