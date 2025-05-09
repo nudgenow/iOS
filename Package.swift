@@ -6,7 +6,7 @@ let package = Package(
     name: "Nudgecore_iOS",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: packageName, targets: [packageName]),
+        .library(name: packageName, targets: [packageName, "RiveRuntime"]),
     ],
     targets: [
         .binaryTarget(
