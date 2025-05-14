@@ -11,8 +11,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: packageName,
-            url: "https://github.com/nudgenow/iOS/raw/refs/tags/7.0.8/Nudgecore_iOS.xcframework.zip",
-            checksum: "9cec75d871f0239d1e9bade3be61b9b3ebcb85f0f666d69199ac995c8d6da780"
+            url: "https://github.com/nudgenow/iOS/raw/refs/tags/7.0.9/Nudgecore_iOS.xcframework.zip",
+            checksum: "8e21f24fd538eacdfcb1aca683ca1fde49ba37c0feb521079fbba16435648a56"
         ),
         .binaryTarget(
             name: "RiveRuntime",
