@@ -8,6 +8,9 @@ let package = Package(
     products: [
         .library(name: packageName, targets: [packageName])
     ],
+    dependencies: [
+        .package(url: "https://github.com/microsoft/plcrashreporter.git", exact: "1.12.0")
+    ],
     targets: [
         .binaryTarget(
             name: packageName,
