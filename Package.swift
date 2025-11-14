@@ -9,21 +9,11 @@ let package = Package(
     products: [
         .library(name: packageName, targets: [packageName])
     ],
-    dependencies: [
-        .package(url: "https://github.com/microsoft/plcrashreporter.git", from: "1.12.0")
-    ],
     targets: [
         .binaryTarget(
             name: packageName,
             url: "https://github.com/nudgenow/iOS/raw/refs/tags/9.0.20/Nudgecore_iOS.xcframework.zip",
             checksum: "217929b7b6bd746b9e043fbba3b31c751a3b0e8c059836727f271b708f645e54"
-        ),
-        .target(
-            name: "\(packageName)_Wrapper",
-            dependencies: [
-                .byName(name: packageName),
-                .product(name: "CrashReporter", package: "plcrashreporter")
-            ]
         )
     ]
 )
