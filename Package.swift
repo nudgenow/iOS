@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: packageName,
-            url: "https://github.com/nudgenow/iOS/raw/refs/tags/12.0.2/Nudgecore_iOS.xcframework.zip",
-            checksum: "d45a634ede5b5092111c5360415de9b940a1039259addc7d15974b15ab67b2b7"
+            url: "https://github.com/nudgenow/iOS/raw/refs/tags/12.0.3/Nudgecore_iOS.xcframework.zip",
+            checksum: "4a220ce8bf62379a23feef5a0db1af83fc5e2420d9bb01636b872068368d8ec9"
         )
     ]
 )
